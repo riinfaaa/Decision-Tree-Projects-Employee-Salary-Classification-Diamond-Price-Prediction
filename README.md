@@ -5,19 +5,21 @@ This repository contains two practical machine learning mini-projects using Deci
 
 Goal: Predict whether an employee’s salary exceeds $100,000, based on employer, job title, and degree.
 
-##📌 Problem Statement
+## 📌 Problem Statement
 
 How can we classify whether an employee earns more than 100k using only categorical job, degree, and company data?
+
 ---
 
-##🧠 Solution Overview
+## 🧠 Solution Overview
 
 Classification task using a Supervised ML: Decision Tree Classifier.
 Encodes categorical variables (e.g., company, job, degree).
 Predicts high earners (salary_more_then_100k).
+
 ---
 
-##🧩 Features
+## 🧩 Features
 
 Step-by-step, clean Colab notebook.
 Handles data cleaning and label encoding for categories.
@@ -25,9 +27,10 @@ Builds and tunes a decision tree classifier.
 Provides tables comparing true and predicted salary classes.
 Example prediction output for easy inspection.
 Visualizes tree structure (via Matplotlib).
+
 ---
 
-##📂 Dataset
+## 📂 Dataset
 
 Sample: salaries.csv
 company (e.g., "google", "facebook", "abc pharma")
@@ -37,7 +40,7 @@ salary_more_then_100k (0 = No, 1 = Yes)
 
 ---
 
-##🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 Tool	Purpose
 Python	Programming language
@@ -45,17 +48,18 @@ Pandas	Data manipulation
 Scikit-learn	ML modeling
 Matplotlib	Visualization
 
+
 ---
 
 # 2️⃣ Diamond Price Prediction with Decision Trees
 Goal: Predict the price of a diamond given its physical and categorical attributes using decision trees.
 
-##📌 Problem Statement 
+## 📌 Problem Statement 
 
 How can we predict diamond prices with features that include both categorical (e.g., cut, color, clarity) and numerical data (e.g., carat, dimensions, depth)?
 
 
-##🧠 Solution Overview
+## 🧠 Solution Overview
 
 Regression task (typically; could also be classification for price brackets).
 Handles text fields with label encoding (cut, color, clarity).
@@ -64,7 +68,7 @@ Trains a Decision Tree model to fit price based on all attributes.
 ---
 
 
-##🧩 Features
+## 🧩 Features
 
 Colab-based
 Data cleaning and type conversion for mixed features.
@@ -75,7 +79,7 @@ Facilitates visualization of results and model performance.
 ---
 
 
-##📂 Dataset
+## 📂 Dataset
 
 Sample: diamonds.csv
 Numerical: carat, depth, table, x, y, z, price
@@ -84,7 +88,7 @@ Categorical: cut, color, clarity
 ---
 
 
-##🛠️ Tech Stack
+##  🛠️ Tech Stack
 
 Tool	Purpose
 Python	Programming language
@@ -94,7 +98,7 @@ Matplotlib	Visualization
 
 ---
 
-##🍰 What You’ll Learn
+## 🍰 What You’ll Learn
 
 Data cleaning: Dealing with categorical and missing data.
 Feature engineering: Label encoding for text features.
@@ -105,7 +109,7 @@ Visualization: Plot model structure and outputs.
 ---
 
 
-##🔗 Usage
+## 🔗 Usage
 
 Open the Google Colab notebooks.
 Upload the datasets (salaries.csv, diamonds.csv)
