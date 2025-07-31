@@ -14,18 +14,26 @@ How can we classify whether an employee earns more than 100k using only categori
 ## 🧠 Solution Overview
 
 -Classification task using a Supervised ML: Decision Tree Classifier.
+
 -Encodes categorical variables (e.g., company, job, degree).
+
 -Predicts high earners (salary_more_then_100k).
+
 
 ---
 
 ## 🧩 Features
 
 -Step-by-step, clean Colab notebook.
+
 -Handles data cleaning and label encoding for categories.
+
 -Builds and tunes a decision tree classifier.
+
 -Provides tables comparing true and predicted salary classes.
+
 -Example prediction output for easy inspection.
+
 -Visualizes tree structure (via Matplotlib).
 
 ---
@@ -33,9 +41,13 @@ How can we classify whether an employee earns more than 100k using only categori
 ## 📂 Dataset
 
 -Sample: salaries.csv
+
 -company (e.g., "google", "facebook", "abc pharma")
--job (e.g., "sales executive", "business manager", ...)
+
+-job (e.g., "sales executive", "business manager")
+
 -degree ("bachelors", "masters")
+
 -salary_more_then_100k (0 = No, 1 = Yes)
 
 ---
@@ -43,9 +55,13 @@ How can we classify whether an employee earns more than 100k using only categori
 ## 🛠️ Tech Stack
 
 -Tool	Purpose
+
 -Python	Programming language
+
 -Pandas	Data manipulation
+
 -Scikit-learn	ML modeling
+
 -Matplotlib	Visualization
 
 
@@ -62,7 +78,9 @@ How can we predict diamond prices with features that include both categorical (e
 ## 🧠 Solution Overview
 
 -Regression task (typically; could also be classification for price brackets).
+
 -Handles text fields with label encoding (cut, color, clarity).
+
 -Trains a Decision Tree model to fit price based on all attributes.
 
 ---
@@ -70,10 +88,14 @@ How can we predict diamond prices with features that include both categorical (e
 
 ## 🧩 Features
 
--Colab-based
+-Colab-based.
+
 -Data cleaning and type conversion for mixed features.
+
 -Feature encoding for cut, color, clarity.
+
 -Flexible for both regression and classification tasks.
+
 -Facilitates visualization of results and model performance.
 
 ---
@@ -82,7 +104,9 @@ How can we predict diamond prices with features that include both categorical (e
 ## 📂 Dataset
 
 -Sample: diamonds.csv
+
 -Numerical: carat, depth, table, x, y, z, price
+
 -Categorical: cut, color, clarity
 
 ---
@@ -91,9 +115,13 @@ How can we predict diamond prices with features that include both categorical (e
 ##  🛠️ Tech Stack
 
 -Tool	Purpose
+
 -Python	Programming language
+
 -Pandas	Data manipulation
+
 -Scikit-learn	ML modeling
+
 -Matplotlib	Visualization
 
 ---
@@ -101,9 +129,13 @@ How can we predict diamond prices with features that include both categorical (e
 ## 🍰 What You’ll Learn
 
 -Data cleaning: Dealing with categorical and missing data.
+
 -Feature engineering: Label encoding for text features.
+
 -Modeling: Training and tuning Decision Tree models.
+
 -Evaluation: Comparing predictions to actuals in table form.
+
 -Visualization: Plot model structure and outputs.
 
 ---
@@ -112,7 +144,9 @@ How can we predict diamond prices with features that include both categorical (e
 ## 🔗 Usage
 
 -Open the Google Colab notebooks.
+
 -Upload the datasets (salaries.csv, diamonds.csv)
+
 -Run each cell step by step—follow inline comments for explanations.
 
 
